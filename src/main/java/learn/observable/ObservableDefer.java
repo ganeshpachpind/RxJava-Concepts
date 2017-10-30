@@ -3,6 +3,11 @@ package learn.observable;
 
 import io.reactivex.Observable;
 
+/**
+ * The defer method is used to create an Observable object,
+ * but waits until the moment when any observer subscribes
+ * to it and returns a fresh Observable -- from Rxjava documentation
+ */
 public class ObservableDefer {
     public static void main(String[] args) {
 
